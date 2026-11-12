@@ -1,4 +1,4 @@
-const API_URL = 'http://api.favorit-parts.ru/hs/hsprice/';
+const API_URL = 'https://api.favorit-parts.ru/hs/hsprice/';
 const INVALID_RESPONSE =
   'Сервис вернул некорректный ответ. Попробуйте ещё раз.';
 
