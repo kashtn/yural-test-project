@@ -1,0 +1,29 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #f8f9fa;
+}
+
+main {
+  max-width: 1140px;
+}
+
+.btn {
+  overflow-wrap: anywhere;
+}
+
+.btn:focus-visible,
+.form-control:focus-visible,
+.offers-table:focus-visible {
+  outline: 3px solid #0d6efd;
+  outline-offset: 3px;
+}
+
+.offers-table table {
+  min-width: 700px;
+}
+
+.offers-table td {
+  max-width: 300px;
+  overflow-wrap: anywhere;
+}
